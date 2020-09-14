@@ -7,3 +7,11 @@ p {
 font-size: 30px;
   
 }
+
+div{
+  background-color: lightgrey;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 30%;
+}
