@@ -16,3 +16,8 @@ div{
   margin: 20px;
   border-radius: 30%;
 }
+
+a {
+  color: white;
+font-family: 'Fredoka One', cursive;
+}
