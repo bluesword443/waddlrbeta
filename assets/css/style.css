@@ -28,6 +28,8 @@ color: #ffffff ;
 div{
   background-color: powderblue;
   display: block;
+  margin: 20px;
+  border-radius: 30%;
 }
 
 a {
