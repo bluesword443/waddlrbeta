@@ -25,10 +25,10 @@ color: #ffffff ;
 }
 
 
-div{
+div {
   background-color: powderblue;
   display: block;
-  text-align: center;
+  padding: 20px;
 }
 
 a {
