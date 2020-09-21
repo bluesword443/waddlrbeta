@@ -76,5 +76,5 @@ body::-webkit-scrollbar-thumb {
   background-color: powderblue;
   outline: 1px solid slategrey;
   margin: 4px 2px;
- 
+   border-radius: 16px;
 }
