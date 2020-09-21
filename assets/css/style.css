@@ -77,4 +77,5 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
   margin: 4px 2px;
    border-radius: 16px;
+   background-image: url("https://waddlr.netlify.app/images/Penguin_Waving.gif");
 }
