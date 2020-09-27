@@ -44,7 +44,7 @@ hr {
 
 .alert {
   padding: 20px;
-  background-color: #f44336;
+  background-color: powderblue;
   color: white;
 }
 
@@ -60,7 +60,7 @@ hr {
 }
 
 .closebtn:hover {
-  color: yellow;
+  color: cyan;
 }
 
 
