@@ -31,6 +31,13 @@ div {
   padding: 20px;
 }
 
+
+div.footer {
+  background-color: #2b8f91;
+  display: block;
+  padding: 20px;
+}
+
 a {
   color: white;
 font-family: 'Fredoka One', cursive;
