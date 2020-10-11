@@ -38,6 +38,11 @@ div.footer {
   padding: 20px;
 }
 
+div.smalltext {
+color: #ffffff ;
+    font-size:10px;
+}
+
 a {
   color: white;
 font-family: 'Fredoka One', cursive;
