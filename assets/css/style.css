@@ -1,8 +1,22 @@
 body {
 background-color: #66d3f4;
  color: white;
+   margin: 0;
+
 font-family: 'Fredoka One', cursive;
 }
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #F7851;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
 
 p {
 font-size: 30px;
