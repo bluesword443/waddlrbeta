@@ -9,7 +9,7 @@ font-family: 'Fredoka One', cursive;
 .header {
   padding: 60px;
   text-align: center;
-  background: #72acea;
+  background: #0866bf;
   color: white;
   font-size: 30px;
 }
@@ -40,7 +40,7 @@ color: #ffffff ;
 
 
 div {
-  background-color: powderblue;
+  background-color: #117bd1;
   display: block;
   padding: 20px;
 }
@@ -95,7 +95,7 @@ hr {
 
 .alert {
   padding: 20px;
-  background-color: powderblue;
+  background-color: #61ace9;
   color: white;
 }
 
@@ -106,7 +106,7 @@ hr {
   float: right;
   font-size: 22px;
   line-height: 20px;
-  cursor: pointer;
+  cursor: pointer;#61ace9
   transition: 0.3s;
 }
 
@@ -124,8 +124,16 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: powderblue;
+  background-color: #61ace9;
   outline: 1px solid slategrey;
   margin: 4px 2px;
    border-radius: 16px;
 }
+
+blockquote {
+background-color: #5eaef0;
+  display: block;
+  padding: 20px;
+
+}
+
