@@ -14,6 +14,10 @@ font-family: 'Fredoka One', cursive;
   font-size: 30px;
 }
 
+img.homepageimg {
+    width: 100%;
+}
+
 /* Page Content */
 .content {padding:20px;}
 
@@ -58,12 +62,24 @@ color: #ffffff ;
 }
 
 a.button {
-background:    darkgradient(270deg,#ffe477 0,#fc0 200%);
+background:    linear-gradient(180deg,#41aff8 0,rgb(0, 86, 167) 100%);
 border-radius: 11px;
 padding:       20px 45px;
+border: 3px solid #0f4f99;
 color:         #ffffff;
 display:       inline-block;
-font:          normal bold 26px/1 "Calibri", sans-serif;
+font:          normal bold 26px/1 "Burbank Small", sans-serif;
+text-align:    center;
+}
+
+a.button:hover {
+background:    linear-gradient(180deg,#0056a7 0,#41aff8 100%);
+border-radius: 11px;
+padding:       20px 45px;
+border: 3px solid #0f4f99;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 26px/1 "Burbank Small", sans-serif;
 text-align:    center;
 }
 
@@ -80,13 +96,14 @@ button.button {
 
 a {
   color: white;
-font-family: 'Fredoka One', cursive;
- font-size: 30px;
- Text-decoration: none; 
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  Text-decoration: none; 
+  transition: all 200ms ease;
 }
 
-a.fab fa-play {
-  color: blue;
+a:hover {
+  color: rgb(180, 221, 255);
 }
 
 hr {
