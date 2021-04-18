@@ -9,7 +9,7 @@ font-family: 'Fredoka One', cursive;
 .header {
   padding: 60px;
   text-align: center;
-  background: #F7851;
+  background: #72acea;
   color: white;
   font-size: 30px;
 }
@@ -58,7 +58,7 @@ color: #ffffff ;
 }
 
 a.button {
-background:    #6fa8dc;
+background:    darkgradient(270deg,#ffe477 0,#fc0 200%);
 border-radius: 11px;
 padding:       20px 45px;
 color:         #ffffff;
@@ -69,13 +69,13 @@ text-align:    center;
 
 
 button.button {
-background:    #6fa8dc;
-border-radius: 11px;
-padding:       20px 45px;
-color:         #ffffff;
-display:       inline-block;
-font:          normal bold 26px/1 "Calibri", sans-serif;
-text-align:    center;
+  background:    #6fa8dc;
+  border-radius: 11px;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 26px/1 "Calibri", sans-serif;
+  text-align:    center;
 }
 
 a {
@@ -83,6 +83,10 @@ a {
 font-family: 'Fredoka One', cursive;
  font-size: 30px;
  Text-decoration: none; 
+}
+
+a.fab fa-play {
+  color: blue;
 }
 
 hr {
