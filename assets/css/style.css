@@ -3,8 +3,13 @@ background-color: #66d3f4;
  color: white;
    margin: 0;
 
-font-family: 'Fredoka One', cursive;
+font-family: 'Burbank', sans-serif;
 }
+
+@import url(//db.onlinewebfonts.com/c/e6ef295909045a8fb440d1b5f073ed4e?family=Burbank+Small);
+
+@font-face {font-family: "Burbank Small"; src: url("//db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot"); src: url("//db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff") format("woff"), url("//db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.svg#Burbank Small") format("svg"); }
+
 
 .header {
   padding: 60px;
