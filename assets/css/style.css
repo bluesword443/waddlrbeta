@@ -14,6 +14,48 @@ font-family: 'Fredoka One', cursive;
   font-size: 30px;
 }
 
+.fa.fa-twitter {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.heypenguin {
+  background: rgb(239, 243, 17);
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
 img.homepageimg {
     width: 100%;
 }
