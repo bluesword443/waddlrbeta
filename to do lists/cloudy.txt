@@ -1,3 +1,3 @@
-.
+Add footer social icons using font awesome
 .
 .
