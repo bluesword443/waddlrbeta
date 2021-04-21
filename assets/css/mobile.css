@@ -1,3 +1,6 @@
+@media screen and (max-width: 481px){
+
+
 body {
   background-color: #66d3f4;
   color: white;
@@ -5,16 +8,20 @@ body {
 font-family: 'Lilita One', cursive;
 }
 
-#content-desktop {display: block;}
-#content-mobile {display: none;}
-
 .header {
   padding: 60px;
   text-align: center;
   background: #0866bf;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
 }
+
+.brmobile {
+            display: block;
+            margin-bottom: 1em;
+        }
+
+
 
 .fa.fa-twitter {
     font-family: "Font Awesome 5 Brands";
@@ -47,10 +54,6 @@ font-family: 'Lilita One', cursive;
   background-color: #000;
 }
 
-.heypenguin {
-  background: rgb(239, 243, 17);
-  color: white;
-}
 
 .twitter {
   background: #55ACEE;
@@ -63,7 +66,7 @@ img.homepageimg {
 }
 
 /* Page Content */
-.content {padding:20px;}
+.content {padding:10px;}
 
 
 p {
@@ -169,11 +172,15 @@ hr {
   border: 3px solid #64c0ea;
 }
 
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
 .alert {
   padding: 20px;
   background-color: #61ace9;
   color: white;
 }
+
 
 .closebtn {
   margin-left: 15px;
@@ -209,7 +216,17 @@ body::-webkit-scrollbar-thumb {
 blockquote {
 background-color: #5eaef0;
   display: block;
-  padding: 20px;
+  padding: 5px;
 
 }
 
+.warning {
+background-color: rgb(221, 82, 82);
+  display: block;
+  padding: 5px;
+
+}
+
+
+
+}
