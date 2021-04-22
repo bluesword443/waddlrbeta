@@ -5,6 +5,27 @@ body {
 font-family: 'Lilita One', cursive;
 }
 
+ .buorg {
+        position: absolute;
+        position: fixed;
+        z-index: 111111;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        border-bottom: 1px solid #1b72c4;
+        text-align: center;
+        color: rgb(243, 142, 142);
+        background-color: #1b72c4;
+        font: 18px font-family: 'Lilita One', cursive;;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        animation: 1s ease-out 0s buorgfly
+    }
+
+        #buorgig {
+        background-color: #0056a7;
+    }
+
+
 #content-desktop {display: block;}
 #content-mobile {display: none;}
 
