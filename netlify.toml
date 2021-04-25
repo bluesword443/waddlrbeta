@@ -1,3 +1,6 @@
-
-[redirects]
-/index.html  /ae.html   302  Country=ae,sa
+[[redirects]]
+  from = "/"
+  to = "/ae"
+  status = 301
+  force = false
+  conditions = {Country = ["ae"]}
