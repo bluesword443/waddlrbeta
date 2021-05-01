@@ -1,0 +1,21 @@
+[[redirects]]
+  from = "/"
+  to = "https://asia-waddlr.evergreenstudios.tk/ara/"
+  status = 301
+  force = true
+  conditions = {Country = ["ae,sa"]}
+
+[[redirects]]
+  from = "/"
+  to = "https://asia-waddlr.evergreenstudios.tk/pt/"
+  status = 301
+  force = true
+  conditions = {Country = ["br,pt,ao,mz,gw"]}
+
+[[redirects]]
+  from = "/"
+  to = "https://eu-waddlr.evergreenstudios.tk/es/"
+  status = 301
+  force = true
+  conditions = {Country = ["sp,mx,co,pe,ar,ch,ve,gt,ec,bo,cu,do,hn,py,sv,nl,cr,pa,uy"]}
+
