@@ -19,3 +19,7 @@
   force = true
   conditions = {Country = ["sp,mx,co,pe,ar,ch,ve,gt,ec,bo,cu,do,hn,py,sv,nl,cr,pa,uy"]}
 
+[[redirects]]
+  from = "/arc-sw.js"
+  to = "https://arc.io/arc-sw.js"
+  status = 200
